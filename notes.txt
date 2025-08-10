@@ -1,9 +1,12 @@
+IN CMD 
 >>mongosh
 >>showdbs
 >>use batch20=======switched to db batch20
 >>db.createCollection("users")
 >>db.users.insertOne({name:"koyel",age:30,email:"koyel@gmail.com",hobbies:["music","sports","painting"]})
+     //INSERTION OF ONE DOCUMENT
 >>db.users.find()
+    //THIS IS THE OUTPUT FOR THE ABOVE COMMAND 
 [
   {
     _id: ObjectId('68983c544215b41f93eec4a9'),
