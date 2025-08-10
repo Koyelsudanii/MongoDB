@@ -1,0 +1,15 @@
+>>mongosh
+>>showdbs
+>>use batch20=======switched to db batch20
+>>db.createCollection("users")
+>>db.users.insertOne({name:"koyel",age:30,email:"koyel@gmail.com",hobbies:["music","sports","painting"]})
+>>db.users.find()
+[
+  {
+    _id: ObjectId('68983c544215b41f93eec4a9'),
+    name: 'koyel',
+    age: 30,
+    email: 'koyel@gmail.com',
+    hobbies: [ 'music', 'sports', 'painting' ]
+  }
+]
